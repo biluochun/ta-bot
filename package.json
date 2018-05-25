@@ -1,0 +1,19 @@
+{
+  "name": "o2-server",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "start-pro": "pm2 start pm2.config.js"
+  },
+  "dependencies": {
+    "binance": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.1.2",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.9.1",
+    "tslint-config-mk": "^1.1.6",
+    "typescript": "^2.8.1"
+  }
+}
